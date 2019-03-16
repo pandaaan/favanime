@@ -193,10 +193,20 @@ UDON
 
 
 
+/*Large devices (desktops, less than 1600px)*/
+@media screen and (max-width: 1600px) {
+ h1, #jap{
+     font-size: 4em;
+ }
+
+ .eng-fmab{
+     font-size: 4em;
+ }
+
+}
 
 
-
-/*Large devices (desktops, less than 1900px)*/
+/*Large devices (desktops, less than 1440px)*/
 @media screen and (max-width: 1440px) {
  h1 {
      font-size: 4.5em;
@@ -226,7 +236,7 @@ UDON
 
 }
 
-/*Large devices (desktops, less than 1900px)*/
+/*Large devices (desktops, less than 1024px)*/
 @media screen and (max-width: 1024px) {
  h1, #jap{
      font-size: 3em;
