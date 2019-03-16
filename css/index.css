@@ -191,6 +191,9 @@ UDON
     background-color: #90DBFC;
 }
 
+.jap-udon{
+    font-size: 4em;
+}
 
 
 /*Large devices (desktops, less than 1600px)*/
@@ -227,10 +230,7 @@ UDON
    
 }
 
-.eng-fmab{
-    font-size: 4em;
-}
-.jap-udon{
+.eng-fmab, .jap-udon{
     font-size: 4em;
 }
 
