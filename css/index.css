@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+ 
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+    height: 100%;
+  
+}
+
+
+h1 {
+    font-size: 7.5em;   
+}
+
+#jap {
+    writing-mode: vertical-lr;
+    margin-left: 0;
+    
+}
+
+#section2 {
+    background-color: #ED7E4D;
+}
+
+.title, .img{
+    position: absolute;
+}
+
+
+.title {
+    z-index: 1;
+    
+}
+
+
+
+.img {
+    position: relative;
+    z-index: 2; 
+    height: 100%;  
+}
+
+.row {
+    height: 100%;
+}
+
+img{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+
+}
+
+.info {
+    height: 100%;
+    background-color: white;
+}
+
+.text {
+    font-family: 'Inconsolata', monospace;
+    text-align: justify;
+    width: 80%;
+     margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/*-----------------------------------------
+CODE GEASS
+----------------------------------------*/
+
+#section3 {
+    background-color: #5B5A84;
+}
+
+
+
+.img-cg{
+    width: 95%;
+}
+
+/*------------------------------------
+DEATH NOTE
+-----------------------------------------*/
+#section4 {
+    background-color: black;
+}
+.title-white {
+    color: white;
+}
+
+#img-dn{
+    width: 120%;
+}
+
+/*---------------------------------------
+SAMURAI
+------------------------------------*/
+#section5{
+    background-color: #F57923;
+}
+
+
+.jap-samu{
+    font-size: 5em;
+
+}
+
+/*-------------------------------------
+LEGEND OF THE 
+----------------------------------*/
+#section6{
+    background-color: #273951;
+}
+
+
+.jap-lotgh{
+    font-size: 6.5em;
+}
+
+
+
+
+/*------------------------------
+HOTARU
+----------------------*/
+#section7{
+    background-color: black;
+}
+.title-hotaru{
+    color: rgb(146, 26, 15);
+}
+
+.img-hotaru{
+    width: 70%;
+}
+
+/*---------------------
+FULLMETALL
+------------------------------*/
+#section8{
+    background-color: #DFDEDD;
+}
+.img.fmab{
+  position: relative;
+  left: 15px;
+}
+
+.jap-fmab, .eng-fmab{
+    font-size: 6em;
+}
+
+.title-fmab{
+    color: #787878;
+}
+
+.fmab-b{
+    color: rgb(156, 25, 13);
+}
+
+
+/*-------------------------
+MONONOKE
+-------------------*/
+
+#section9{
+    background-image: linear-gradient(to bottom, #66884c, #7a873a, #92842a, #ac7e21, #c77425, #d4782c, #e27c33, #f0803b, #f2973d, #f3ad44, #f2c250, #f0d760);
+}
+
+.img.mononoke{
+  position: relative;
+  right: 15px;
+}
+
+
+/*--------------
+UDON
+------------*/
+
+
+#section10{
+    background-color: #90DBFC;
+}
+
+
+
+
+
+
+/*Large devices (desktops, less than 1900px)*/
+@media screen and (max-width: 1440px) {
+ h1 {
+     font-size: 4.5em;
+ }
+ .text{
+    font-size: 0.9em;
+}
+
+ #img-dn{
+     width: 125%;
+ }
+
+.jap-naru{
+    font-size: 4.5em;
+}
+.jap-samu{
+    font-size: 3em;
+   
+}
+
+.eng-fmab{
+    font-size: 4em;
+}
+.jap-udon{
+    font-size: 4em;
+}
+
+}
+
+/*Large devices (desktops, less than 1900px)*/
+@media screen and (max-width: 1024px) {
+ h1, #jap{
+     font-size: 3em;
+ }
+
+}
