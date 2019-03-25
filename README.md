@@ -1,2 +1,2 @@
-# pandaaan.github.io
+# pandaaan.github.io/favanime
 practice , just for fun , test
